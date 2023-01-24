@@ -27,3 +27,20 @@ void bubble_sort(int *array, size_t size)
 		}
 	}
 }
+
+/**
+ * swap - swaps two integers
+ * @a: First Integer
+ * @b: Second Integer
+ *
+ * Return: Nothing
+ */
+
+void swap(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
